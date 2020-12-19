@@ -7,7 +7,7 @@
 }
 
 body {
-  background: rgb(245, 225, 253);
+  background: rgb(230, 228, 231);
   font-family: 'Abril Fatface', cursive;
 }
 
@@ -17,7 +17,7 @@ ul {
 }
 
 nav {
-  background: rgb(209, 214, 209);
+  background: rgb(247, 227, 252);
   font-family: bree serif;
   height: 80px;
 }
@@ -86,4 +86,31 @@ img {
 .turtle {
   height: 500px;
   width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .namelogo{
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    line-height: 20px;
+    margin: 5px 0px 0px 0px;
+  }
+  nav {
+    background: lightblue;
+    display: block;
+    height: 100px;
+  }
+  .navigation {
+    width: 100%;
+    text-align: center;
+  }
+  .navigation ul {
+    line-height: 40px;
+    float: left;
+    width: 100%;
+  }
+  .navigation ul li a {
+    margin: 0px
+  }
 }
